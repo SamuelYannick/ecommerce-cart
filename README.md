@@ -1,4 +1,3 @@
-```markdown
 # Simple E-Commerce Cart
 
 This is a simple e-commerce cart built with React and Vite. It allows users to add products to the cart, adjust item quantities, and remove items from the cart. The app also calculates the total price based on the items in the cart.
@@ -21,18 +20,19 @@ Make sure you have [Node.js](https://nodejs.org) installed on your computer.
 
 ### Installing
 
-1; Clone the repository to your local machine:
+1. Clone the repository to your local machine:
+
    ```bash
    git clone https://github.com/your-username/ecommerce-cart.git
    ```
 
-2; Navigate to the project folder:
+2. Navigate to the project folder:
 
    ```bash
    cd ecommerce-cart
    ```
 
-3; Install the necessary dependencies:
+3. Install the necessary dependencies:
 
    ```bash
    npm install
@@ -61,14 +61,3 @@ This will create an optimized build in the `dist/` folder.
 ```plainText
 
 ---
-
-### Final Steps:
-1. **Commit Your Changes**:
-   After adding the comments and `README.md`, commit the changes to your version control system:
-   ```bash
-   git add .
-   git commit -m "Add comments and README"
-   git push
-   ```
-
-2.**Review**: Ensure everything is working and the comments make the code easier to understand for future development.
