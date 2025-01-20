@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing;
+}
+
+body {
+  font-family: 'Arial', san-serif;
+  background-color: #2C3E50;
+  color: #ECF0F1;
+}
+
+h1, h2, h3 {
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* App Container */
+.app {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #34495E;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #FF6F61;
+  margin-bottom: 20px;
+}
+
+/* Product List */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.product-item {
+  background-color: #1ABC9C;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform o.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+}
+
+.product-item span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #34495E;
+}
+
+.product-item button {
+  padding: 8px 16px;
+  background-color: #FF6F61;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+  background-color: #E74C3C;;
+}
+
+/* Cart */
+.cart {
+  background-color: #34495E;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.cart h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #FF6F61;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #7F8C8D;
+}
+
+.cart-item span {
+  font-size: 1rem;
+  color: #ECF0F1;
+}  
+
+.cart-item button {
+  padding: 5px 12px;
+  background-color: #1ABC9C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #16A085;
+}
+
+.cart-item button:disabled {
+  background-color: #BDC3C7;
+  cursor: not-allowed;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #ECF0F1;
+  font-weight: bold;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .product-list {
+     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-list {
+     grid-template-columns: 1fr;
+  }
+}
