@@ -197,10 +197,6 @@ npm run build
 
 This will create an optimized build in the `dist/` folder.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ```plainText
 
 ---
